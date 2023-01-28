@@ -13,5 +13,7 @@ client.login(keys.discordToken)
 })
 
 client.on('ready', () => {
+    console.log("Login Sucessful!")
+
     status.updateStatus();
 })

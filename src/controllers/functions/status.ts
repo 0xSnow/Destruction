@@ -2,7 +2,7 @@ import axios from 'axios';
 import keys from '../../keys';
 import { EmbedBuilder, WebhookClient } from 'discord.js';
 
-const webhook = new WebhookClient({ url: 'https://discord.com/api/webhooks/1068780153838247976/wjwFf1NoJEZNuJRSqsA3yPdHNM5GsbcFrQD5JFyGCLxlljc8GGq7OGiTma5EiW2DPc2I' });
+const webhook = new WebhookClient({ url: 'https://discord.com/api/webhooks/1068773969253122118/z2x91oxISAJdodxeYdicHv9u605wDZFUgDBAFmbZinXz-zTbESRGhYBig3bwJp31WYGy' });
 
 async function getCartels() {
     try {
@@ -61,7 +61,7 @@ function updateStatus() {
                 .setImage("https://i.imgur.com/gcLd49q.jpg")
                 .setTimestamp()
 
-            await webhook.editMessage('1068830970192601109', {
+            await webhook.editMessage('1068835942229618768', {
                 embeds: [embed]
             });
         }
